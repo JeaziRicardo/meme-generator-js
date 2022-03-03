@@ -6,7 +6,7 @@ const file = document.querySelector('#meme-insert');
 const fireBtn = document.querySelector('#fire');
 const waterBtn = document.querySelector('#water');
 const earthBtn = document.querySelector('#earth');
-
+const preReady = document.querySelectorAll('.pre-ready');
 
 function textInContainer() {
   memeText.innerHTML = '';
@@ -34,3 +34,17 @@ function changeBorderEarth() {
   memeContainer.style.border = 'groove 6px green';
 }
 earthBtn.addEventListener('click', changeBorderEarth);
+
+function getReady(event) {
+  const clicked = event.target;
+  memeImage.src = clicked.src;
+  memeImage.style.width = '300px';
+  memeImage.style.height = '300px';
+}
+
+function clickMeme() {
+  for (let index = 0; index < preReady.length; index += 1) {
+    preReady[index].addEventListener('click', getReady);
+  }
+}
+clickMeme();
