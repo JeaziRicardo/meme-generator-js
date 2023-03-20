@@ -4,7 +4,7 @@
 
 <details>
 
-O projeto **Meme Generator** foi executado como requisito obrigatório do curso de Desenvolvimento Web da [Trybe](https://www.betrybe.com/). Foi um dos primeiros projetos realizados do módulo de fundamentos, que permite a pessoa usuária, fazer o upload de uma imagem e a inserção de um texto sobre ela, estilizado de forma apropriada gerando assim um [Meme](https://www.significados.com.br/meme/).
+O projeto **Meme Generator** foi executado como requisito obrigatório do curso de Desenvolvimento Web da [Trybe](https://www.betrybe.com/). Foi um dos primeiros projetos realizados do módulo de fundamentos, que permite a pessoa usuária, fazer o upload de uma imagem e a inserção de um texto sobre ela, estilizado apropriadamente, gerando assim um [Meme](https://www.significados.com.br/meme/).
 
 > :eyes: Observação: existem melhorias para serem feitas no projeto, mas optei em deixar assim para acompanhar minha evolução quando comparado a projetos mais recentes.
 
