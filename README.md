@@ -1,4 +1,4 @@
-# :stuck_out_tongue_winking_eye: Projeto Gerador de Memes
+# :trollface: Projeto Gerador de Memes
 
 ## :scroll: Sobre
 
